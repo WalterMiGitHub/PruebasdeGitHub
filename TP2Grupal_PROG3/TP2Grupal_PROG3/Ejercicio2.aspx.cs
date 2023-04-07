@@ -48,6 +48,8 @@ namespace TP2Grupal_PROG3
                 imgNombre.Visible = true;
                 imgNombre.ImageUrl = "imagenes/marca-de-verificacion.png";
                 btnResumen.Enabled = true;
+                //línea de comentario
+                linea que no funciona                
             }
         }
 
