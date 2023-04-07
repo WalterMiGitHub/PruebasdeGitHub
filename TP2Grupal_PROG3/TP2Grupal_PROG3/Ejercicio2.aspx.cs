@@ -39,8 +39,7 @@ namespace TP2Grupal_PROG3
                 lblValidacionNombre.Text = "Caracteres inválidos";
                 imgNombre.Visible = true;
                 imgNombre.ImageUrl = "imagenes/error.png";
-                btnResumen.Enabled = false;
-                //linea de prueba 1
+                btnResumen.Enabled = false;                
             }
             else
             {
@@ -49,7 +48,6 @@ namespace TP2Grupal_PROG3
                 imgNombre.Visible = true;
                 imgNombre.ImageUrl = "imagenes/marca-de-verificacion.png";
                 btnResumen.Enabled = true;
-                //linea de prueba 2
             }
         }
 
